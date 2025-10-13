@@ -12,7 +12,7 @@ const server2 = http.createServer((req,res)=>{
 });
 
 server2.listen(4801);
-
+//Yes, it’s possible to create two different servers in a single Node.js file
 //============================================= Questions =============================================//
 //By using which package we can create server?
 //Ans: http package

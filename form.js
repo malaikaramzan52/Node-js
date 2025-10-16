@@ -39,8 +39,9 @@ http.createServer((req, res) => {
             // fs.writeFileSync('text/'+readableData.name+'.txt',dataString);// Writing the formatted string to a text file
             // console.log('File Created');
             //======================================== Create file Asynchronously =========================================
-            fs.writeFile('text/'+readableData.name+'.txt',dataString,(err)=>{
-                if(err) throw err;
+            fs.writeFile('text/' + readableData.name + '.txt', dataString, (err) => {
+                if (err)
+                    throw err;
                 console.log('File Created');
             });
 
@@ -61,7 +62,7 @@ http.createServer((req, res) => {
 //while it’s being transferred from one place to another — like from a file or network to your program.
 
 //============================ Handle Form Request =============================================
-// also included in above code 
+// also included in above code
 
 //============================= Create File from Form Data ======================================
 // also included in above code

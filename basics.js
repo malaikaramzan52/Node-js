@@ -1,7 +1,7 @@
 //=================Fundamentals of Node JS=================//
 // const data = require('./data');
 // console.log(data.userName);
-//import multiple functions
+//==========================import multiple functions==================================//
 const {sum, subtract, multiply, divide} = require('./data.js');
 console.log(sum(10, 20));       // 30
 console.log(subtract(10, 5));   // 5

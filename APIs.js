@@ -1,5 +1,8 @@
 //Making simple APIs 
 const http = require('http');
+// Create a web server
+// Receive requests from the browser
+// Send responses back to the browser
 const userData = [
     {
         name: "John",

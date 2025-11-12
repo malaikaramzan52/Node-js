@@ -29,5 +29,5 @@ console.log(process.pid);     //process id
 
 //=========================== Custom Global Objects ======================
 const {log,warn} = require("console");
-log("Custom Log Message");   //using destructuring assignment to get the log method from console module
+log("Custom Log Message");        //using destructuring assignment to get the log method from console module
 warn("Custom Warning Message");   //using destructuring assignment to get the warn method from console module

@@ -31,18 +31,17 @@ console.log(add(10,20));
 function fruit(item){
     console.log("Fruit name is "+item);
 }
-console.log("apple");
-
+fruit("banana");
 //=========================Loops===========================//
 for(let a=0;a<=5;a++){
     console.log(a);
-}
+}//when number of iterations are known in advanced
 let x=0;
 while(x<=5){
     console.log(x);
     x++;
 }
-
+//when number of iterations are not known in advanced iterate until condition is met
 //=========================Array=========================//
 let arr = [10,20,30,40,50];
 // console.log(arr);

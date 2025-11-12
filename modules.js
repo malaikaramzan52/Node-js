@@ -19,11 +19,11 @@ console.log(os.cpus());          //to check the CPU information of the system
 //========================= Global Objects =================================
 console.log("abc");
 console.log(process.cwd());   //current working directory
-console.log(process.pid);   //process id
+console.log(process.pid);     //process id
 
 
 //=========================== Difference between Core Modules and Global Objects ======================
-//Global Objects is an object that is available in all modules by default.
+//Global Objects is an object that is available in all modules by default.(__dirname,__filename)
 //Core Modules are the modules that are provided by Node.js and can be imported using require() function.
 
 

@@ -12,14 +12,14 @@ const file = "Text/dummy.txt"
 //===========extension name================
 //console.log(path.extname(file));
 
-//===============director name ============
+//===============directory name ============
 console.log(path.dirname(file));//folder name 
 
 //==================Base name ============
 console.log(path.basename(file));//file name 
 
 //================To Create Complete Root Path============
-console.log(path.resolve("text","dummy.txt"));
+console.log(path.resolve("text","dummy.txt"));//absolute path
 
 //=============to check path is Relative or Absolute =======
 console.log(path.isAbsolute(file));   //false 

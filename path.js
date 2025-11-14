@@ -38,6 +38,6 @@ console.log(path.isAbsolute(file));   //false
 //Global Constants
 
 //=================== Directory name =======================
-console.log(__dirname);    //current directory name 
+console.log(__dirname);    // current directory name 
 //=================== File name ====================
 console.log(__filename);   // current file name 

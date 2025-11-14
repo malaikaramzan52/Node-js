@@ -22,8 +22,8 @@ const operation = process.argv[2];  //first get operation
 
 //=================================Write a file ========================
 if(operation =="write"){
-    const name=process.argv[3];     //second get name of the file 
-    const content = process.argv[4]; //Third is content
+    const name=process.argv[3];                                //second get name of the file 
+    const content = process.argv[4];                           //Third is content
     const fullname ="files/"+name+".txt";
     console.log(operation,name,content);
     fs.writeFileSync(fullname,content)// to write the file in specific folder.
@@ -35,7 +35,7 @@ else if (operation == "read"){
     const name=process.argv[3];     //second get name of the file 
     //const content = process.argv[4]; //Third is content
     const fullname ="files/"+name+".txt";
-    let data = fs.readFileSync(fullname,"utf-8")// to write the file in specific folder.
+    let data = fs.readFileSync(fullname,"utf-8")
     console.log(data);
 
 
